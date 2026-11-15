@@ -119,12 +119,12 @@
 // base layer. Ignored on smaller boards where the outer column doesn't exist.
 // Uncomment and edit to customize. Defaults match the Selenium specification.
 
-#define OC_TL  KC_RBRC  // KC_TAB
-#define OC_TR  KC_LBRC  // KC_BSPC
-#define OC_ML  KC_NUHS  // KC_ESC
-#define OC_MR  KC_QUOT  // KC_ENT
-#define OC_BL  KC_LCTL  // KC_LSFT
-#define OC_BR  KC_RCTL  // KC_RSFT
+#define OC_TL  KC_TAB
+#define OC_TR  KC_BSPC
+#define OC_ML  KC_ESC
+#define OC_MR  KC_ENT
+#define OC_BL  KC_LSFT
+#define OC_BR  KC_RSFT
 
 /******************************************************************************
  * Extra Upper Row (boards with a 5th physical row only)
@@ -133,7 +133,7 @@
 // Identical on every layer. Ignored on other boards.
 // Uncomment and edit to customize. Defaults to a number row.
 
-#define UR_OL  KC_ESC
+#define UR_OL  KC_EQL
 #define UR_1   KC_1
 #define UR_2   KC_2
 #define UR_3   KC_3
@@ -145,26 +145,3 @@
 #define UR_9   KC_9
 #define UR_0   KC_0
 #define UR_OR  KC_MINS
-
-#define ODK_EXT_INNER_TL KC_GRV  // KC_MINS
-#define ODK_EXT_INNER_TR KC_EQL
-#define ODK_EXT_INNER_ML KC_ENT  // KC_LBRC
-#define ODK_EXT_INNER_MR KC_BSPC  // KC_RBRC
-#define ODK_EXT_INNER_BL KC_TAB// KC_SCLN
-#define ODK_EXT_INNER_BR KC_DEL  // KC_QUOT
-#define ODK_EXT_BOTTOM_L1 KC_HOME
-#define ODK_EXT_BOTTOM_L2 KC_PGDN
-#define ODK_EXT_BOTTOM_L3 KC_PGUP
-#define ODK_EXT_BOTTOM_L4 KC_END
-#define ODK_EXT_BOTTOM_R1 KC_RIGHT
-#define ODK_EXT_BOTTOM_R2 KC_UP
-#define ODK_EXT_BOTTOM_R3 KC_DOWN
-#define ODK_EXT_BOTTOM_R4 KC_LEFT
-#define ODK_EXT_THUMB_OUT_TL KC_F14
-#define ODK_EXT_THUMB_OUT_ML KC_F15
-#define ODK_EXT_THUMB_OUT_BL KC_LGUI
-#define ODK_EXT_THUMB_OUT_TR KC_F16
-#define ODK_EXT_THUMB_OUT_MR KC_F17
-#define ODK_EXT_THUMB_OUT_BR KC_RGUI
-#define ODK_EXT_THUMB_3L KC_F13
-#define ODK_EXT_THUMB_3R KC_F18
